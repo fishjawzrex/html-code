@@ -1,2 +1,2 @@
 # html-code
-This is where all html files will be stored
+All html, css, and javascript(web-based code) files are repoed here. 
