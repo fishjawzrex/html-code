@@ -1,0 +1,155 @@
+
+<!DOCTYPE html>
+<link href="https://fonts.googleapis.com/css?family=Russo+One&display=swap" rel="stylesheet">
+<style media="screen">
+  .link-div {
+    margin: 20px;
+
+    display: inline-block;
+    text-align: left;
+    font-family: Russo One, "Sans Serif";
+    text-color: #FFF;
+    justify-content: space-around;
+  }
+  .main-element {
+    display: block;
+    text-align: center;
+
+  }
+  #header-img {
+    width: 150px;
+  }
+  header nav {
+    width: auto;
+    display: flex;
+    justify-content: center;
+  }
+  .row-tab{
+    padding-top: 20px;
+    text-align: center;
+    display: block;
+
+  }
+  .label-email {
+    text-align: left;
+    display: inline-block;
+    color: gray;
+  }
+  .input-email {
+    text-align: right;
+    display: inline-block;
+  }
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-content: space-around;
+}
+  h1{
+    display: inline-block;
+    text-align: center;
+    margin: 50px;
+  }
+  .container {
+    display: flex;
+    height: auto;
+  }
+  main .h1 {
+    text-align: center;
+  }
+
+  main .main-element {
+    height:200px;
+    width: 500px;
+    border: 10px solid black;
+  }
+  .sub-cont {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+  }
+  .center {
+    display: inline-block;
+    text-align: center;
+  }
+  body {
+
+  }
+  @media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+}
+</style>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="html and css project building a product landing page">
+    <meta name="author" content="Feyisayo A. Adediwura">
+    <title>product landing page</title>
+  </head>
+  <body>
+    <header>
+      <img src="image_1.png" alt="company logo" id="header-img">
+      <nav>
+        <div class="link-div">
+          <a href="#Laptops">Laptops</a>
+        </div>
+        <div class="link-div">
+          <a href="#Desktops">Desktops</a>
+        </div>
+        <div class="link-div">
+          <a href="#Workstations">Workstations</a>
+        </div>
+        <div class="link-div">
+          <a href="#Servers">Servers</a>
+        </div>
+
+      </nav>
+
+    </header>
+    <hr color="hsl(221, 100%, 50%)">
+    <main>
+      <h1 style = "color: gray";><u>THE HOME OF COMPUTING TECHNOLOGY</u></h1>
+      <div class="center">
+        <video src="ibm_computer.mp4" autoplay=on controls>
+
+        </video>
+      </div>
+      <div class=" sub-cont">
+
+
+        <div class="main-element" id="Laptops" style="background-color: red;">
+
+        </div>
+        <div class="main-element" id="Workstations" style="background-color: orange;">
+
+        </div>
+        <div class="main-element" id="Desktops" style="background-color: blue;">
+
+        </div>
+        <div class="main-element" id=Servers style="background-color: green;">
+
+        </div>
+      </div>
+
+
+      <div class="row-tab">
+        <form class="" id=from>
+          <div class="label-email">
+            <label>Enter Your Email:</label>
+          </div>
+          <div class="input-email">
+            <input type="email"  id="email" placeholder="email address">
+          </div>
+          <a href="https://www.freecodecamp.com/email-submit"><button type="button" name="submit">Submit</button></a>
+
+        </form>
+      </div>
+
+
+    </main>
+    <footer></footer>
+  </body>
+</html>
