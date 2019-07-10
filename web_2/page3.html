@@ -1,0 +1,62 @@
+<style media="screen">
+  p{
+    font-family: 'Lobster';
+    font-size: 16px;
+    color: yellow;
+  }
+  .green-background{
+    background-color: green;
+    color: gray;
+  }
+  #unordered-list{
+    color: orange;
+  }
+  .purple-border{
+    border-width: 5px;
+    border-style: solid;
+    border-color: purple;
+    border-radius: 10px;
+  }
+</style>
+<div style="background-color: blue;">
+
+  <h2 style="background-color: red;">Kings of Ile Ife Photos</h2>
+  <hr>
+  <br>
+  <main>
+  <div class="green-background">
+
+
+    <p><h1>Welcome to the Old King's Page!</h1></p>
+    <a href="home.html"><h3>homepage</h3></a>
+    <a href="#explanation">jump to form</a>
+    <br>
+    <a href="#"><img class="purple-border"src="Ooni.png" alt="Not a cat" width=200px></a>
+    <form>
+      <input type="text" name="age_data" placeholder="Enter your Age" required>
+      <ul id="unordered-list">
+        <li>Have you ever been employed by the Corporation for Broadcasting?</li>
+        <li>Do you have any family member or relative that is a current or former employee of the Corporation for Broadcasting?</li>
+      </ul>
+      <p>If you answered yes to any of the above questions, then type out
+      your explanation for the cases in the box below.</p>
+      <br>
+      <textarea id="explanation" rows="8" cols="80" placeholder="Enter your reasons here..."></textarea>
+      <label >
+        <br>
+        <button type="button" name="Submit" >SUBMIT</button>
+      </label>
+
+        <br>
+        <input type="radio" name="indoor-outdoor" id="indoor">INDOOR
+      </label>
+      <br>
+      <label for="outdoor">
+        <input type="radio" name="indoor-outdoor" id="outdoor">OUTDOOR
+      </label>
+
+    </form>
+  </div>
+  </main>
+
+</div>
